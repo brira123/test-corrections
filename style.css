@@ -53,3 +53,7 @@ h2 {
 #heading {
     font-weight: bold;
 }
+
+.nav-link {
+    color: #91969b!important;
+}
