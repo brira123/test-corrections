@@ -1,0 +1,55 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+/* Write all your CSS here! */
+
+#logo {
+    color: #e0214e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#second-nav {
+    background-color: #494949;
+}
+
+.nav-link {
+      color: #9c9895;
+}
+
+h2 {
+    color: #494949;
+}
+.container {
+    display: grid;
+    color: #494949
+}
+
+.col-6 {
+    background-color: #2da745;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 17px;
+}
+
+.fa-calendar-alt, .fa-user, .green {
+    color: #7ab351;
+}
+
+.green {
+    font-weight: bold;
+}
+
+.card-footer{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#heading {
+    font-weight: bold;
+}
