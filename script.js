@@ -7,12 +7,12 @@ $.ajax ({
   url: `https://techkaro-test.herokuapp.com/api/v1/getdata?lang`,
   success: function(data) {
     console.log(data);
-    document.querySelector("#second-nav").innerHTML=
+    document.querySelector(".navbar-nav").innerHTML=
     `
-    <a class="nav-link" href="#">${data.menuOptions[0].toUpperCase()}</a>
-    <a class="nav-link" href="#">${data.menuOptions[1].toUpperCase()}</a>
-    <a class="nav-link" href="#">${data.menuOptions[2].toUpperCase()}</a>
-    <a class="nav-link" href="#">${data.menuOptions[3].toUpperCase()}</a>
+    <a class="nav-item nav-link" href="#">${data.menuOptions[0].toUpperCase()}</a>
+    <a class="nav-item nav-link" href="#">${data.menuOptions[1].toUpperCase()}</a>
+    <a class="nav-item nav-link" href="#">${data.menuOptions[2].toUpperCase()}</a>
+    <a class="nav-item nav-link" href="#">${data.menuOptions[3].toUpperCase()}</a>
     `
     document.querySelector(".card").innerHTML=
     `
@@ -42,12 +42,12 @@ function langCode(code) {
     url: `https://techkaro-test.herokuapp.com/api/v1/getdata?lang=${code}`,
     success: function(data) {
       console.log(data);
-      document.querySelector("#second-nav").innerHTML=
+      document.querySelector(".navbar-nav").innerHTML=
       `
-      <a class="nav-link" href="#">${data.menuOptions[0].toUpperCase()}</a>
-      <a class="nav-link" href="#">${data.menuOptions[1].toUpperCase()}</a>
-      <a class="nav-link" href="#">${data.menuOptions[2].toUpperCase()}</a>
-      <a class="nav-link" href="#">${data.menuOptions[3].toUpperCase()}</a>
+      <a class="nav-item nav-link" href="#">${data.menuOptions[0].toUpperCase()}</a>
+      <a class="nav-item nav-link" href="#">${data.menuOptions[1].toUpperCase()}</a>
+      <a class="nav-item nav-link" href="#">${data.menuOptions[2].toUpperCase()}</a>
+      <a class="nav-item nav-link" href="#">${data.menuOptions[3].toUpperCase()}</a>
       `
       document.querySelector(".card").innerHTML=
       `
