@@ -56,4 +56,18 @@ h2 {
 
 .nav-link {
     color: #91969b!important;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .col-sm-8, .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .col-sm-8, .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
